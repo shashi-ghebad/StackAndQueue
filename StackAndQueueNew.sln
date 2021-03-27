@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackAndQueueNew", "StackAn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PopAndPeak", "PopAndPeak\PopAndPeak.csproj", "{3789788D-5816-47FF-8832-9BFEFEC685D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueCreating", "QueueCreating\QueueCreating.csproj", "{257D2FAA-0E40-4A32-8118-724E88CBB372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueCreating", "QueueCreating\QueueCreating.csproj", "{257D2FAA-0E40-4A32-8118-724E88CBB372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingDequeue", "CreatingDequeue\CreatingDequeue.csproj", "{0F03A4FB-B300-43F1-8C52-4C2E58A86BE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{257D2FAA-0E40-4A32-8118-724E88CBB372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{257D2FAA-0E40-4A32-8118-724E88CBB372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{257D2FAA-0E40-4A32-8118-724E88CBB372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F03A4FB-B300-43F1-8C52-4C2E58A86BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F03A4FB-B300-43F1-8C52-4C2E58A86BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F03A4FB-B300-43F1-8C52-4C2E58A86BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F03A4FB-B300-43F1-8C52-4C2E58A86BE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

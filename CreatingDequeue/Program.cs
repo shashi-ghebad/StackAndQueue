@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QueueCreating
+namespace CreatingDequeue
 {
     class Program
     {
@@ -26,7 +26,10 @@ namespace QueueCreating
             linkedListQueue.Enqueue(30);
             linkedListQueue.Enqueue(70);
             linkedListQueue.Display();
-
+            linkedListQueue.Dequeue();
+            linkedListQueue.Display();
+            linkedListQueue.Dequeue();
+            linkedListQueue.Display();
             Console.ReadKey();
         }
 
